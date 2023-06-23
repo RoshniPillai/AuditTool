@@ -1,4 +1,683 @@
-.App {
-  font-family: sans-serif;
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+  color: "#ffffff";
+  background-color: #232425 !important;
+}
+.App .page-title {
+  font-family: "Roboto";
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: left;
+  padding-left: 0.25rem;
+  color: #fff;
+}
+.App .heading {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 1.625rem;
+  line-height: 1.875rem;
+}
+.App .title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 0.9375rem;
+}
+.App .subTitle {
+  font-family: "Roboto";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.187rem;
+  letter-spacing: 0;
+  text-align: left;
+}
+.App .primarybtn,
+.App .primarybtn:hover {
+  width: 135px;
+  height: 43px;
+  background: #148291;
+  border-radius: 3px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.187rem;
+  display: flex;
+  align-items: center;
   text-align: center;
+  text-transform: uppercase;
+}
+.landing-page .chip-wrapper {
+  background-color: #148291;
+  border-radius: 18px;
+  color: #fff;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.312rem;
+  height: 40px;
+}
+.landing-page
+  .chip-wrapper
+  .MuiChip-deleteIconColorDefault.MuiChip-deleteIconFilledColorDefault.css-i4bv87-MuiSvgIcon-root {
+  font-size: 1.125rem;
+  color: #fff;
+}
+li.MuiButtonBase-root.MuiMenuItem-root.MuiMenuItem-gutters.Mui-selected.MuiMenuItem-root.MuiMenuItem-gutters.Mui-selected.makeStyles-root-2 {
+  background-color: #148291;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-outlined {
+  background-color: "transparent";
+  color: "#fff";
+  border: 1px solid #fff;
+}
+.MuiPaper-root.MuiMenu-paper.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiPopover-paper {
+  background: "#3D4044";
+  box-shadow: "0px 4px 4px rgba(0, 0, 0, 0.25)";
+  border-radius: "28px !important";
+}
+.MuiPaper-root.MuiMenu-paper.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiPopover-paper {
+  border-radius: 18px;
+  background-color: transparent;
+}
+.MuiButtonBase-root.MuiChip-root.MuiChip-filled.MuiChip-sizeMedium.MuiChip-colorDefault.MuiChip-clickable.MuiChip-clickableColorDefault.MuiChip-deletable.MuiChip-deletableColorDefault.MuiChip-filledDefault:hover,
+.MuiButtonBase-root.MuiChip-root.MuiChip-filled.MuiChip-sizeSmall.MuiChip-colorDefault.MuiChip-clickable.MuiChip-clickableColorDefault.MuiChip-deletable.MuiChip-deletableColorDefault.MuiChip-filledDefault:hover {
+  background-color: #148291;
+  color: #fff;
+}
+svg.MuiSvgIcon-root.MuiChip-deleteIcon.MuiChip-deleteIconSmall.MuiChip-deleteIconColorDefault.MuiChip-deleteIconFilledColorDefault {
+  color: #fff !important;
+}
+.subHeading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.3125rem;
+}
+.btn-secondary {
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff !important;
+  border-radius: 3px;
+}
+button.MuiButtonBase-root.Mui-disabled.MuiPaginationItem-root.MuiPaginationItem-sizeMedium.MuiPaginationItem-text.MuiPaginationItem-circular.Mui-disabled.MuiPaginationItem-previousNext {
+  opacity: 1;
+  color: #fff;
+}
+button.MuiButtonBase-root.Mui-disabled.MuiPaginationItem-root.MuiPaginationItem-sizeMedium.MuiPaginationItem-text.MuiPaginationItem-circular.Mui-disabled.MuiPaginationItem-firstLast {
+  opacity: 1;
+  color: #fff;
+}
+div#panel1a-header {
+  min-height: 40px;
+}
+.MuiAccordionSummary-content.Mui-expanded.MuiAccordionSummary-contentGutters {
+  margin: 10px 0;
+}
+svg.MuiSvgIcon-root.MuiChip-deleteIcon.MuiChip-deleteIconMedium.MuiChip-deleteIconColorDefault.MuiChip-deleteIconFilledColorDefault {
+  color: #fff;
+}
+.MuiPaper-root.ForwardRef-root-88.MuiPaper-elevation1.MuiPaper-rounded,
+.App .custom-search {
+  height: 26px;
+  background-color: #28292b;
+  color: #fff;
+  width: 110px;
+  min-height: 24px;
+}
+.App .custom-search .ForwardRef-searchContainer-20 {
+  width: 50px;
+}
+.App .custom-search .ForwardRef-searchContainer-20 {
+  margin-left: 32px;
+}
+.custome-search ~ div {
+  margin-left: 23px;
+}
+.App .custom-search .ForwardRef-searchContainer-27 {
+  margin-left: 32px;
+}
+.App .custom-search input.MuiInputBase-input.MuiInput-input,
+.App .custom-search svg.MuiSvgIcon-root.ForwardRef-icon-18 {
+  color: #fff;
+  font-size: 0.75rem;
+}
+.App .custom-search svg.MuiSvgIcon-root.ForwardRef-icon-18 {
+  font-size: 1.125rem;
+}
+.App .custom-search .ForwardRef-searchIconButton-17 {
+  position: relative;
+}
+.App
+  .custom-search
+  button.MuiButtonBase-root.MuiIconButton-root.ForwardRef-iconButton-89.ForwardRef-searchIconButton-91
+  svg.MuiSvgIcon-root.ForwardRef-icon-18
+  span.MuiIconButton-label {
+  position: absolute;
+  right: 95px;
+}
+
+.App .custom-search .ForwardRef-searchIconButton-17 span svg.MuiSvgIcon-root8 {
+  position: absolute;
+  right: 95px;
+}
+
+.App
+  .custom-search
+  button.MuiButtonBase-root.MuiIconButton-root.ForwardRef-iconButton-89 {
+  color: #fff;
+}
+
+.App .custom-search span.MuiIconButton-label {
+  color: #fff;
+}
+
+.App .custom-search svg.MuiSvgIcon-root.ForwardRef-icon-92 {
+  font-size: 0.937rem;
+}
+.App .custom-search .ForwardRef-searchIconButton-17,
+button.MuiButtonBase-root.MuiIconButton-root {
+  position: relative;
+}
+.App .custom-search button svg.MuiSvgIcon-root.ForwardRef-icon-18 {
+  position: absolute;
+  font-size: 1.062rem;
+  right: 102px;
+  color: #9ea5ad;
+}
+.App .custom-search svg.MuiSvgIcon-root {
+  position: absolute;
+  font-size: 1.125rem;
+  right: 93px;
+  color: #9ea5ad;
+}
+.custom-search div:first-child {
+  width: 67px;
+  margin: 0;
+  margin-left: 15px;
+}
+th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-sizeMedium {
+  background-color: #3d4044;
+  padding: 0;
+  width: 100px;
+  border-bottom: none;
+  line-height: 10px;
+}
+.App .css-11qer14-MuiTableCell-root {
+  border: 0;
+  border-bottom: none;
+}
+.App span.MuiButtonBase-root.MuiTableSortLabel-root {
+  color: #fff;
+  padding-left: 8px;
+  font-size: 0.75rem;
+}
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.MuiTableSortLabel-icon.MuiTableSortLabel-iconDirectionAsc,
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.MuiTableSortLabel-icon.MuiTableSortLabel-iconDirectionDesc {
+  color: #fff;
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiTableContainer-root {
+  border-radius: 0;
+  padding: 10px 0 0 0;
+  background-color: transparent;
+}
+.MuiPaper-elevation1 {
+  box-shadow: none;
+}
+button.MuiButtonBase-root.MuiIconButton-root.ForwardRef-iconButton-15 {
+  margin-right: -20px;
+  transition: none;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium {
+  min-width: 42px;
+}
+.landing-page .event-selectBox div:first-child,
+.landing-page .entity-selectBox div:first-child,
+.landing-page .user-selectBox div:first-child {
+  width: 426px;
+  padding: 0;
+  border-radius: 20px;
+  position: relative;
+  background-color: #3d4044;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  color: #fff;
+  min-height: 40px;
+}
+
+.landing-page .event-selectBox img,
+.landing-page .entity-selectBox img,
+.landing-page .user-selectBox img {
+  display: none;
+}
+
+.landing-page .event-selectBox div .css-1ddxf06,
+.landing-page .entity-selectBox div .css-1ddxf06,
+.landing-page .user-selectBox div .css-1ddxf06 {
+  background-color: #148291;
+  border-radius: 18px;
+  color: #fff;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.312rem;
+  height: 40px;
+}
+
+.landing-page .event-selectBox svg.MuiSvgIcon-root,
+.landing-page .entity-selectBox svg.MuiSvgIcon-root,
+.landing-page .user-selectBox svg.MuiSvgIcon-root {
+  font-size: 18px;
+}
+.landing-page input#customized-hook-demo {
+  height: 40px;
+  font-size: 14px;
+  background-color: #3d4044;
+  border-radius: 20px;
+}
+
+.landing-page ul#customized-hook-demo-listbox {
+  width: 426px;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 8px;
+}
+.detail-panel .MuiPaper-root {
+  background-color: transparent;
+}
+.MuiAutocomplete-root.MuiAutocomplete-hasPopupIcon {
+  padding: 0;
+  border-radius: 20px;
+  position: relative;
+  background-color: #3d4044;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  color: #fff;
+  min-height: 40px;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root {
+  color: #fff;
+}
+/* .MuiInputBase-root.MuiOutlinedInput-root.Mui-focused{
+  border: 2px solid #00B8D9;
+  border-radius: 20px;
+} */
+
+.MuiFormControl-root.MuiFormControl-fullWidth.MuiTextField-root:hover {
+  border: 0;
+}
+.MuiAutocomplete-root .MuiInputBase-root.MuiOutlinedInput-root {
+  padding: 0;
+}
+.landing-page
+  .MuiButtonBase-root.MuiChip-root.MuiChip-filled.MuiChip-sizeMedium.MuiChip-colorDefault.MuiChip-deletable {
+  background-color: #148291;
+  color: #fff;
+  font-size: 16px;
+}
+.MuiOutlinedInput-notchedOutline {
+  border: none;
+}
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium {
+  color: #fff;
+}
+ul::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+ul::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+ul::-webkit-scrollbar-thumb {
+  background: #148291;
+  border-radius: 10px;
+}
+
+/* .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiInputBase-adornedStart.MuiInputBase-adornedEnd.MuiAutocomplete-inputRoot:focus {
+  border: 2px solid #00B8D9;
+  border-radius: 21px;
+} */
+/* date time picker */
+
+.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiPickersToolbarButton-toolbarBtn
+  h3,
+.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiPickersToolbarButton-toolbarBtn
+  h6 {
+  background-color: black;
+  padding-left: 0.3125rem;
+  padding-right: 0.3125rem;
+}
+
+.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiPickersToolbarButton-toolbarBtn
+  h6.MuiTypography-root.MuiPickersToolbarText-toolbarTxt.MuiTypography-subtitle1 {
+  background-color: #3d4044;
+}
+
+.MuiPickersCalendarHeader-switchHeader #button {
+  padding-left: 0, 0.3125rem, 0, 0.3125rem;
+}
+
+.MuiPickerDTTabs-tabs {
+  background-color: #3d4044 !important;
+}
+
+.MuiPaper-root.MuiPaper-elevation1.MuiPaper-rounded
+  .MuiTabs-root.MuiPickerDTTabs-tabs
+  .MuiTabs-scroller.MuiTabs-fixed
+  span[class^="PrivateTabIndicator"],
+.MuiTabs-scroller.MuiTabs-fixed span[class^="PrivateTabIndicator"] {
+  background-color: #00a3bf;
+}
+
+/* .MuiDialogActions-root.MuiDialogActions-spacing {
+  display: none;
+} */
+
+.MuiToolbar-root.MuiToolbar-regular.MuiPickersToolbar-toolbar.MuiPickerDTToolbar-toolbar {
+  background-color: #3d4044;
+}
+
+.MuiPickersBasePicker-pickerView {
+  background-color: #3d4044;
+  color: #fff;
+}
+
+span.MuiTypography-root.MuiPickersCalendarHeader-dayLabel.MuiTypography-caption {
+  color: #fff;
+}
+
+.MuiPickersCalendar-week .MuiPickersDay-day {
+  color: #fff;
+}
+
+.MuiPickersCalendar-week .MuiPickersDay-dayDisabled {
+  color: rgba(0, 0, 0, 0.38);
+  pointer-events: none;
+}
+
+.MuiPickersCalendar-week .MuiPickersDay-daySelected,
+.MuiPickersDay-daySelected:hover {
+  background-color: #00a3bf !important;
+}
+
+/* MuiTabs-scroller.MuiTabs-fixed  #span {
+  display: none !important;
+} */
+
+button.MuiButtonBase-root.MuiIconButton-root.MuiPickersCalendarHeader-iconButton,
+button.MuiButtonBase-root.MuiIconButton-root.MuiPickersCalendarHeader-iconButton
+  :hover {
+  margin-left: 1px;
+  background-color: transparent !important;
+  color: #fff;
+}
+.MuiPickersClockNumber-clockNumber {
+  color: #fff;
+}
+.MuiPickersClock-clock .MuiPickersClock-pin,
+.MuiPickersClock-clock .MuiPickersClockPointer-pointer,
+.MuiPickersClock-clock
+  .MuiPickersClockPointer-pointer.MuiPickersClockPointer-animateTransform,
+.MuiPickersClock-clock
+  .MuiPickersClockPointer-pointer.MuiPickersClockPointer-animateTransform
+  .MuiPickersClockPointer-thumb {
+  background-color: #00a3bf;
+}
+
+.MuiPickersClock-clock
+  .MuiPickersClockPointer-pointer.MuiPickersClockPointer-animateTransform
+  .MuiPickersClockPointer-thumb,
+.MuiPickersClock-clock
+  .MuiPickersClockPointer-pointer
+  .MuiPickersClockPointer-thumb {
+  border: 14px solid #00a3bf;
+}
+
+.calendar-wrapper
+  .MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-formControl.MuiInput-formControl.MuiInputBase-adornedEnd {
+  background-color: #3d4044;
+  color: #fff;
+  border-radius: 20px;
+  padding: 8px;
+  padding-left: 42px;
+  height: 2rem;
+  min-height: 40px;
+}
+
+.calendar-wrapper
+  .MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-formControl.MuiInput-formControl.MuiInputBase-adornedEnd:hover {
+  border-bottom: 0;
+}
+
+.calendar-wrapper button.MuiButtonBase-root.MuiIconButton-root {
+  left: 0;
+  position: absolute;
+  color: #fff;
+  size: -20px;
+}
+
+.calendar-wrapper svg.MuiSvgIcon-root {
+  width: 15px;
+}
+
+.MuiPickersClockPointer-thumb.MuiPickersClockPointer-noPoint {
+  background-color: #00a3bf;
+  border: 14px solid #00a3bf;
+}
+.MuiPickersClockPointer-pointer.MuiPickersClockPointer-thumb {
+  border: "14px solid #00A3BF";
+  background-color: "#00A3BF !important";
+}
+
+.MuiPickersClock-clock.MuiPickersClockPointer-pointer {
+  background-color: "#00A3BF !important";
+}
+.MuiPickersClock-clock > .MuiPickersClock-pin {
+  background-color: "#00A3BF !important";
+}
+
+.calendar-wrapper span.MuiTypography-root.MuiPickersClockNumber-clockNumber {
+  color: #fff;
+}
+.MuiPickersClock-clock
+  span.MuiTypography-root.MuiPickersClockNumber-clockNumber.MuiTypography-body1 {
+  color: #fff;
+}
+button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.MuiAutocomplete-clearIndicator {
+  color: #fff;
+}
+
+.MuiInput-underline:after,
+.MuiInput-underline:before {
+  border-bottom: 0 !important;
+  border-color: #3d4044;
+  transition: none;
+}
+
+.MuiAutocomplete-root.MuiAutocomplete-hasPopupIcon {
+  margin: 0;
+  margin-top: 0.3125rem;
+}
+.datetime-wrapper
+  input.MuiInputBase-input.MuiInput-input.MuiInputBase-inputAdornedEnd {
+  color: #fff;
+  font-size: 10px;
+  padding-left: 16px;
+}
+
+.datetime-wrapper button.MuiButtonBase-root.MuiIconButton-root {
+  position: absolute;
+  left: 0;
+  padding: 5px;
+}
+
+.datetime-wrapper svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium {
+  width: 10px;
+}
+
+.datetime-wrapper {
+  width: 100px;
+}
+.select-wrapper {
+  width: 130px;
+}
+.select-wrapper .MuiAutocomplete-root.MuiAutocomplete-hasPopupIcon {
+  background-color: #28292b;
+  min-height: 24px;
+  line-height: 24px;
+  border-radius: 4px;
+}
+/* .select-wrapper .MuiAutocomplete-root.MuiAutocomplete-hasPopupIcon {
+  background-color: pink;
+  min-height: 20px;
+  background-color: #28292B;
+  border-radius: 6px;
+  color: #fff;
+  height: 24px;
+  box-sizing: border-box;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  border: 0;
+  outline: 0;
+}
+
+.select-wrapper .MuiInputBase-root.MuiOutlinedInput-root {
+  font-size: 10px;
+  color: #fff;
+}
+
+ .select-wrapper #fixed-tags-demo {
+  font-size: 12px;
+  padding: 0;
+}
+
+.select-wrapper svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium {
+  width: 17px;
+} */
+/* .select-wrapper input#fixed-tags-demo {
+  padding: 0;
+  background: url('./assets/filter.png') no-repeat 10% 80%;
+    background-size: 14px;
+} */
+.select-wrapper .MuiButtonBase-root.MuiChip-root {
+  background-color: #00a3bf;
+  color: #fff;
+  max-width: 83px;
+  font-size: 12px;
+  border-radius: 4px;
+  height: 25px;
+}
+.select-wrapper
+  svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.MuiChip-deleteIcon {
+  width: 12px;
+}
+.select-wrapper span.MuiChip-label {
+  padding: 0 10px;
+}
+
+.detail-page .MuiAutocomplete-listbox li {
+  font-size: 8px;
+}
+
+.detail-page .MuiAutocomplete-listbox li {
+  font-size: 8px;
+  font-weight: normal;
+  border-radius: 0;
+  padding: 5px;
+}
+/* .select-wrapper input.MuiInputBase-input.MuiOutlinedInput-input.MuiInputBase-inputAdornedEnd.MuiAutocomplete-input.MuiAutocomplete-inputFocused {
+  background: url(./assets/filter.png) no-repeat 10% 50%; 
+} */
+.select-wrapper
+  .MuiFormControl-root.MuiFormControl-fullWidth.MuiTextField-root {
+  /* background: url(./assets/filter.png) no-repeat 10% 50%;  */
+}
+.select-wrapper .MuiAutocomplete-root .MuiInputBase-root.MuiOutlinedInput-root {
+  padding: 0;
+  padding-right: 15px !important;
+  background: url(./assets/filter.png) no-repeat 10% 36%;
+  /* max-width: 120px; */
+}
+/* hide arrow icon on detail page select boxes */
+.select-wrapper
+  .MuiAutocomplete-endAdornment.css-1q60rmi-MuiAutocomplete-endAdornment {
+  /* display: none; */
+}
+/* .MuiListItem-root.Mui-selected, .MuiPopover-root .MuiListItem-root.Mui-selected:hover, .Mui-selected {
+  background-color: red;
+} */
+/* .MuiPaper-root.MuiMenu-paper.MuiPopover-paper.MuiPaper-elevation8.MuiPaper-rounded {
+  background-color: aquamarine;
+}
+.MuiAutocomplete-option[data-focus="true"]: {
+  background: 'blue'
+} */
+/* .MuiListItem-root.Mui-selected, .MuiListItem-root.Mui-selected:hover {
+  background-color: red !important;
+} */
+.MuiTablePagination-selectLabel {
+  color: #fff;
+}
+
+p.MuiTablePagination-displayedRows {
+  color: #fff;
+}
+
+span.notranslate {
+  color: #fff;
+}
+
+.MuiSelect-select .MuiTablePagination-select {
+  color: #fff;
+}
+
+.MuiTablePagination-select {
+  color: #fff;
+}
+button.MuiButtonBase-root.MuiPaginationItem-root {
+  color: #fff;
+  /* color: #52575d; */
+}
+button.MuiButtonBase-root.MuiPaginationItem-root.MuiPaginationItem-text.MuiPaginationItem-circular.MuiPaginationItem-textPrimary.Mui-selected.MuiPaginationItem-page {
+  background-color: #148291;
+}
+/* .select-wrapper input.MuiInputBase-input.MuiOutlinedInput-input.MuiInputBase-inputAdornedStart.MuiInputBase-inputAdornedEnd.MuiAutocomplete-input.MuiAutocomplete-inputFocused {
+  display: none;
+} */
+.detail-page
+  button.MuiButtonBase-root.MuiPaginationItem-root.MuiPaginationItem-sizeSmall.MuiPaginationItem-text.MuiPaginationItem-circular.MuiPaginationItem-textPrimary.Mui-selected.MuiPaginationItem-page {
+  /* background-color: transparent; */
+  color: #fff;
+}
+.MuiDialogActions-root.MuiDialogActions-spacing {
+  /* display: none; */
+  background-color: #3d4044;
+}
+.MuiButton-root.MuiButton-text.MuiButton-textPrimary {
+  color: #fff;
+}
+.MuiPaper-root.MuiPaper-outlined.MuiPaper-rounded.detail-panel {
+  word-break: break-word;
+  word-break: break-all;
 }
